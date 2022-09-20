@@ -848,7 +848,13 @@ items:
           - name: gRPC-Web
             uid: grpc/grpcweb
           - name: gRPC JSON transcoding
-            uid: grpc/httpapi
+            items:
+              - name: Overview
+                uid: grpc/json-transcoding
+              - name: Configure HTTP rules
+                uid: grpc/json-transcoding-binding
+              - name: Setup Swashbuckle and OpenAPI
+                uid: grpc/json-transcoding-openapi
       - name: Configuration
         uid: grpc/configuration
       - name: Authentication and authorization
